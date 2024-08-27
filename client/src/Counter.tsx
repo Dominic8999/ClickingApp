@@ -13,7 +13,7 @@ function Counter(){
     }
 
     function handleResetCount(){
-        setCount(c => c = 0)
+        setCount(0)
     }
 
     return(
